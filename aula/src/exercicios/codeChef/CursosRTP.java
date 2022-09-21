@@ -1,6 +1,6 @@
 package exercicios.codeChef;
 
-import java.lang.reflect.Array;
+
 import java.util.Scanner;
 
 public class CursosRTP {
