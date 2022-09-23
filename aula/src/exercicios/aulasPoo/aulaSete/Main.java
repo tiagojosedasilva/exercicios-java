@@ -37,6 +37,7 @@ public class Main {
                     System.out.println("Digite o valor que vai ser depositado na " + (i + 1) + " conta:");
                     int valorDeposito = ler.nextInt();
                     conta[i].realizarDeposito(valorDeposito);
+                    break;
                 case 2:
                     System.out.println("Digite o valor que vai ser sacado na " + (i + 1) + " conta:");
                     double valorSaque = ler.nextDouble();
@@ -45,7 +46,7 @@ public class Main {
                     while (conta[i].realizarSaque(valorSaque) == false){
                         System.out.println("Tente novamente.");
                         break;
-                    }
+                    }break;
                 case 3:
                     System.out.println("Seu saldo disponivel é de: " + conta[i].getSaldo());
                     break;
