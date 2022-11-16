@@ -28,7 +28,7 @@ public class Exumacao {
         this.corpo = corpo;
     }
 
-    public void exmucar(){
+    public void exumar(){
         this.corpo.setSituacao("Exumado");
         this.tumulo.desocupar();
     }

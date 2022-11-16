@@ -33,5 +33,6 @@ public class Tumulo {
     }
     public void desocupar(){
         this.ocupado = false;
+
     }
 }

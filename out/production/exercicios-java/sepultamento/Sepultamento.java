@@ -39,5 +39,6 @@ public class Sepultamento {
 
     public void sepultar(){
         this.corpo.setSituacao("Sepultado");
+        this.tumulo.setOcupado(true);
     }
 }
